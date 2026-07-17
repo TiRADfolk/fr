@@ -156,13 +156,13 @@ Une invitation chaleureuse et vibrante à entrer directement dans la danse.`
             agendaDiv.innerHTML = siteAgenda.map(item => {
                 let buttonsHtml = '';
                 if (item.ticketUrl) {
-                    buttonsHtml += `<a href="${item.ticketUrl}" target="_blank" class="bg-[#D36B4F] text-white px-4 py-2 rounded text-sm hover:bg-[#D36B4F]/90 font-medium">🎫 Billetterie</a>`;
+                    buttonsHtml += `<a href="${item.ticketUrl}" target="_blank" class="bg-[#D36B4F] text-white px-4 py-2 rounded text-sm hover:bg-[#D36B4F]/90 font-medium">🎫 Organisateur</a>`;
                 }
                 if (item.fbUrl) {
-                    buttonsHtml += `<a href="${item.fbUrl}" target="_blank" class="bg-[#3B5998] text-white px-4 py-2 rounded text-sm hover:bg-[#3B5998]/90 font-medium">📅 Facebook</a>`;
+                    buttonsHtml += `<a href="${item.fbUrl}" target="_blank" class="bg-[#3B5998] text-white px-4 py-2 rounded text-sm hover:bg-[#3B5998]/90 font-medium">📅 Lien</a>`;
                 }
                 if (item.orgUrl) {
-                    buttonsHtml += `<a href="${item.orgUrl}" target="_blank" class="bg-[#1E352F] text-white px-4 py-2 rounded text-sm hover:bg-[#1E352F]/90 font-medium">🌐 Organisateur</a>`;
+                    buttonsHtml += `<a href="${item.orgUrl}" target="_blank" class="bg-[#1E352F] text-white px-4 py-2 rounded text-sm hover:bg-[#1E352F]/90 font-medium">🌐 Lien</a>`;
                 }
 
                 return `
